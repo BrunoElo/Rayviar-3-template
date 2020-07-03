@@ -115,9 +115,41 @@ span {
     margin: auto;
 }
 
-#team {
-    border: 5px solid #FFDC9A;
+#team{
+    border: 8px solid #FFDC9A;
     margin-top: 43px;
+}
+
+.ad {
+    background-image: url('../rayviarimg/flaunt2.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+  height: 30vh;
+  color: white;
+  padding: 40px;
+}
+
+
+
+.testimonials {
+    text-align: center;
+    width: 250px;
+    height: 300px;
+    border: 8px solid #FFDC9A;
+    padding: 20px;
+    margin: 20px 50px;
+}
+/* you can also set slick slider width with
+.slick-slide {
+    width: 500px;
+}
+*/
+
+.testimonials img {
+text-align: center;
 }
 
 @media only screen and (min-width:768px) {
@@ -144,6 +176,10 @@ span {
     }
     span, fa {
         font-size: 1em;
+    }
+    .testimonials {
+        width: 500px;
+        
     }
 }
 @media only screen and (min-width:1000px) {
