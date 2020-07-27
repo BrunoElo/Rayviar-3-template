@@ -1,36 +1,29 @@
-// initialise slick plugin
-
+// Slider initialiser for testimonials
 $(document).ready(function () {
-    $('.your-class').slick({
+    $('.testimonial-wrapper').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: true,
+        pauseOnHover: false,
         centerMode: true,
-        variableWidth: true
+        variableWidth: true,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 1
+            }
+        }]
     });
 });
 
-// centerMode slick
 
-$('.center').slick({
-    centerMode: true,
-    centerPadding: '60px',
-    slidesToShow: 3,
-    responsive: [
-        {
-            breakpoint: 768,
-            settings: {
-                arrows: false,
-                centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 3
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                arrows: false,
-                centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 1
-            }
-        }
-    ]
-});
+// Simple light-box
+var lightbox = new SimpleLightbox('.space a', { /* options */ });

@@ -52,11 +52,11 @@ h3{
     background-color: #FFDC9A;
 }
 
-.services-container, .people {
+#services, .people {
     padding-bottom: 43px;
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-wrap: wrap
 }
 
 
@@ -109,11 +109,11 @@ span {
     display: block;
     font-size: 12px;
 }
-/*gallery
+/*gallery*/
 .your-css {
     width: 75%;
     margin: auto;
-}*/
+}
 
 #team{
     border: 8px solid #FFDC9A;
@@ -132,6 +132,8 @@ span {
   padding: 40px;
 }
 
+
+
 .testimonials {
     text-align: center;
     width: 250px;
@@ -147,18 +149,8 @@ span {
 */
 
 .testimonials img {
-    margin: 20px auto;
+text-align: center;
 }
-
-.gallery a {
-    margin: 0.5vw;
-}
-
-.card-deck {
-    margin: 36px 30px;
-    text-align: center;
-}
-
 
 @media only screen and (min-width:768px) {
     #brandname {
@@ -189,22 +181,6 @@ span {
         width: 500px;
         
     }
-    
-    .gallery {
-        margin: auto 100px;
-    }
-
-    .card-deck {
-        margin: 4.2vw 100px;
-        
-    }
-
-    
-    
-
-
-
-
 }
 @media only screen and (min-width:1000px) {
     .nav-item {

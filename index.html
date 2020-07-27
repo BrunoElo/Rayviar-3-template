@@ -10,18 +10,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="rayviarcss/rayviar3.css">
-    <!--gallery plugin-->
-    <script type="text/javascript" src="rayviarjs/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="rayviarjs/pixel-metro.js"></script>
-    <link rel="stylesheet" href="rayviarcss/pixel-metro.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-    <script type="text/javascript" src="rayviarjs/rayviar3.js"></script>
+    <!--simple light-box-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.2.1/simple-lightbox.css"
+        integrity="sha512-kd/rTkr2n86xZVspr82DLyfAP8FE6hZUbMEykgXb51vuVbAZRxYlm7x3DAUCnPUKnaT5TX2StFbCvrL36p8chQ=="
+        crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.2.1/simple-lightbox.min.js"
+        integrity="sha512-RSjvYwV1kzd7PAEehPsCUF3TCurQPiDo92f2kStv2q3+cZ/2mLLr7OsWKmnQOCwqKileVUrpsWt8K4rHgOAbmg=="
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!--navbar-->
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <nav id="home" class="navbar navbar-expand-md navbar-light bg-light">
         <a id="brandname" class="navbar-brand" href="#">RAYVIAR</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +33,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#home">HOME <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#aboutus">ABOUT</a>
@@ -101,8 +103,8 @@
         </div>
     </div>
     <div class="service">
-        <h2>WHAT WE PROVIDE</h2>
-        <div id="services">
+        <h2 id="services">WHAT WE PROVIDE</h2>
+        <div class="services-container">
 
             <div class="servicecard">
                 <h3>Skin care tips</h3>
@@ -127,92 +129,28 @@
             </div>
         </div>
     </div>
-    <h2>THE CATEGORY IS...SKIN!!!</h2>
+    <h2 id="work">THE CATEGORY IS...SKIN!!!</h2>
     <!--gallery plugin-->
-    <section id="work">
-
-        <div class="your-css">
-
-            <div class="pixel-metro">
-                <div class="content-metro" size-o="normal">
-                    <div class="metro-sheet">
-                        <img src="rayviarimg/carousel1stcomp.png">
-                    </div>
-                    <div class="metro-sheet">
-                        <img src="rayviarimg/QS9ZX5UnS14.png">
-                    </div>
-                    <div class="metro-sheet">
-                        <img src="rayviarimg/Group 3207compcr.jpg">
-                    </div>
+    <div class="container-fluid gallery-animate">
+        <div class=" gallery d-flex flex-row justify-content-center">
+            <div class="d-flex flex-column space">
+                <div class="d-flex flex-row space">
+                    <a href="rayviarimg/cAFpd2vqnPE.png"><img src="rayviarimg/cAFpd2vqnPE.png" class="img-fluid"
+                            alt=""></a>
+                    <a href="rayviarimg/blackladies.png"><img src="rayviarimg/blackladies.png" class="img-fluid"
+                            alt=""></a>
                 </div>
-
-                <div class="content-metro" size-o="wide">
-                    <div class="metro-sheet">
-                        <img src="rayviarimg/mtiRp4MupoA.png">
-                    </div>
-                    <div class="metro-sheet">
-                        <img src="rayviarimg/nivea-racist-ad.jpg">
-                    </div>
-                </div>
-
-                <div class="content-metro" size-o="small">
-                    <div class="metro-sheet">
-                        <img src="rayviarimg/839rFsfLnrM.png">
-                    </div>
-                    <div class="metro-sheet">
-                        <img src="rayviarimg/cAFpd2vqnPE.png">
-                    </div>
-                    <div class="metro-sheet">
-                        <img src="rayviarimg/carousel1stcomp.png">
-                    </div>
-                </div>
-
-                <div class="content-metro" size-o="normal">
-                    <div class="metro-sheet">
-                        <img src="rayviarimg/carousel1stcomp.png">
-                    </div>
-                    <div class="metro-sheet">
-                        <img src="rayviarimg/QS9ZX5UnS14.png">
-                    </div>
-                    <div class="metro-sheet">
-                        <img src="rayviarimg/Group 3207compcr.jpg">
-                    </div>
-                </div>
-
-                <div class="content-metro" size-o="small">
-                    <div class="metro-sheet">
-                        <img src="rayviarimg/839rFsfLnrM.png">
-                    </div>
-                    <div class="metro-sheet">
-                        <img src="rayviarimg/cAFpd2vqnPE.png">
-                    </div>
-                    <div class="metro-sheet">
-                        <img src="rayviarimg/carousel1stcomp.png">
-                    </div>
-                </div>
-
-                <div class="content-metro" size-o="wide">
-                    <div class="metro-sheet">
-                        <img src="rayviarimg/mtiRp4MupoA.png">
-                    </div>
-                    <div class="metro-sheet">
-                        <img src="rayviarimg/nivea-racist-ad.jpg">
-                    </div>
-                </div>
-
+                <a href="rayviarimg/manheadonpillow.png"><img src="rayviarimg/manheadonpillow.png" class="img-fluid"
+                        alt=""></a>
             </div>
-            <script type="text/javascript">
-                $(".pixel-metro").pixel_metro({
-                    height: "500px",
-                    bg_metro: "gallery background image goes here",
-                    bg_opacity: 0,
-                    metro_rows: 2,
-                });
-            </script>
-
+            <div class="d-flex flex-column space">
+                <a href="rayviarimg/839rFsfLnrM.png"><img src="rayviarimg/839rFsfLnrM.png" class="img-fluid" alt=""></a>
+            </div>
         </div>
-    </section>
+    </div>
     <!--galerry plugin-->
+
+
     <div id="team">
         <h2>CREATIVE MINDS</h2>
         <div class="card-deck">
@@ -251,23 +189,24 @@
     <div class="ad">
         <h2>Flaunt your skin...you deserve it.</h2>
     </div>
-    <h2>YOUR SKIN SPEAKS</h2>
-    <div id="clients">
-        <div class="your-class">
+    <!--testimonial start-->
+    <h2 id="clients">YOUR SKIN SPEAKS</h2>
+    <div class="testimonial-container">
+        <div class="testimonial-wrapper">
             <div class="testimonials">
-                <img src="rayviarimg\testimo.png">
+                <img src="rayviarimg\testimo.png" class="img-fluid">
                 <h5>Charlene Taylor</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu nisi ac mi malesuada vestibulum.
                 </p>
             </div>
             <div class="testimonials">
-                <img src="rayviarimg\testimo.png">
+                <img src="rayviarimg\testimo.png" class="img-fluid">
                 <h5>Charlene Taylor</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu nisi ac mi malesuada vestibulum.
                 </p>
             </div>
             <div class="testimonials">
-                <img src="rayviarimg\testimo.png">
+                <img src="rayviarimg\testimo.png" class="img-fluid">
                 <h5>Charlene Taylor</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu nisi ac mi malesuada vestibulum.
                 </p>
@@ -275,10 +214,21 @@
         </div>
 
     </div>
+    <!--testimonial end-->
+    <!--contact us start
+    <div class="contact-container">
+        <h2>REACH OUT</h2>
+        <div class="row contact-wrapper">
+            <div class="col-6 form-container">
+                <h3>We would love to hear from you.</h3>
+            </div>
+            <div class="col-6">
+                s<img src="" alt="">
+            </div>
+        </div>-->
 
-
-
-
+    </div>
+    <!--contact us end-->
 
 
     <!--footer-->
@@ -305,6 +255,8 @@
         crossorigin="anonymous"></script>
     <!--jquery, popper.js, bootstrap.js-->
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="rayviarjs/rayviar3.js"></script>
+
 </body>
 
 </html>
