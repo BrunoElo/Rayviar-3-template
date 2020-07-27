@@ -311,25 +311,8 @@ textarea {
       opacity: 1;
     }
 
-    .mailing-list {
-        background-image: url("/rayviarimg/mailinglistbgimg.png");
-        background-position: center center;
-        object-fit: cover;
-        color: white;
-        text-align: center;
-        padding: 40px;
-    }
-
-    .mailing-list-wrapper {
-        display: flex;
-        justify-content: center;
-    }
-
     .mailing-list__emailinput {
         width: 400px;
-        background-color: transparent;
-        border: 2px solid #FFFFFF;
-        color: white;
     }
 
     .mailing-list__btn {
@@ -342,7 +325,6 @@ textarea {
     }
 
     .mailing-list h3 {
-        font-weight: 600;
         font-size: 48px;
     }
 
