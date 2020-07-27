@@ -216,7 +216,7 @@ textarea {
 }
 
 .mailing-list {
-    background-image: url("/rayviarimg/mailinglistbgimg.png");
+    background-image: url("../rayviarimg/mailinglistbgimg.png");
     background-position: center center;
     object-fit: cover;
     color: white;
