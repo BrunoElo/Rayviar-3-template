@@ -19,6 +19,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.2.1/simple-lightbox.min.js"
         integrity="sha512-RSjvYwV1kzd7PAEehPsCUF3TCurQPiDo92f2kStv2q3+cZ/2mLLr7OsWKmnQOCwqKileVUrpsWt8K4rHgOAbmg=="
         crossorigin="anonymous"></script>
+    <!--scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
 
 <body>
@@ -51,7 +53,7 @@
                     <a class="nav-link" href="#clients">CLIENT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT</a>
+                    <a class="nav-link" href="#contact">CONTACT</a>
                 </li>
             </ul>
         </div>
@@ -215,22 +217,50 @@
 
     </div>
     <!--testimonial end-->
-    <!--contact us start
-    <div class="contact-container">
-        <h2>REACH OUT</h2>
+    <!--contact us start-->
+    <div class="container-fluid contact-container">
+        <h2 id="contact">REACH OUT</h2>
         <div class="row contact-wrapper">
-            <div class="col-6 form-container">
+            <div class="col-sm-6 form-container">
                 <h3>We would love to hear from you.</h3>
+                <form action="" method="POST">
+                    <div>
+                        <input type="text" class="form-container__textinput" id="name" name="name" placeholder="Name">
+                    </div>
+                    <div>
+                        <input type="email" class="form-container__emailinput" id="useremail" name="useremail"
+                            placeholder="Email">
+                    </div>
+
+                    <textarea rows="4" placeholder="Enter message here..."></textarea><br>
+                    <input type="button" class="contact-btn" value="SEND">
+
+                </form>
             </div>
-            <div class="col-6">
-                s<img src="" alt="">
+            <div class="col-sm-6 form-container__img">
+                <img class="img-fluid" src="rayviarimg/blackladyside.png" alt="black lady">
             </div>
-        </div>-->
+        </div>
 
     </div>
     <!--contact us end-->
+    <!--mailing list start-->
+    <div class="mailing-list">
+        <h3>GET 15% DISCOUNTS</h3>
+        <p>Subcribe to the Rayviar mailing list to receive update on new arrivals,<br>
+            special offers and other discount information.</p>
+        <form action="" method="POST" class="mailing-list-wrapper">
 
+            <div>
+                <input type="email" class="mailing-list__emailinput" id="useremail" name="useremail"
+                    placeholder="Your email address here">
+            </div>
 
+            <input type="button" class="mailing-list__btn" value="SUBSCRIBE">
+
+        </form>
+    </div>
+    <!--mailing list end-->
     <!--footer-->
     <footer>
         <div class="end d-flex justify-content-between">
