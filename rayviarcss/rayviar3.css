@@ -175,6 +175,7 @@ span {
     padding-bottom: 40px;
     background-color: rgba(255, 220, 154, 0.69);
     margin: 18px;
+    z-index: 3;
 }
 
 .form-container__textinput, .form-container__emailinput {
@@ -198,11 +199,15 @@ textarea {
     margin: 20px auto;
 }
 
+.contact-wrapper {
+    justify-content: center;
+}
+
 .form-container__img {
     padding-right: 0px;
     position: absolute;
-    opacity: 0.2;
-  
+    max-width: 70%;  
+    
 }
 
 .contact-btn {
@@ -340,10 +345,12 @@ textarea {
     }
 }
 
+
+
+
+
+
 /*
-
-
-
 
     @media screen and (max-width:550px) {
         #navbar ul {
